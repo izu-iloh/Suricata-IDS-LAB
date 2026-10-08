@@ -1,0 +1,1 @@
+alert tcp any any -> $HOME_NET 4444 (msg:"LAB Netcat TCP 4444 Test"; flags:S; sid:1000001; rev:1;)

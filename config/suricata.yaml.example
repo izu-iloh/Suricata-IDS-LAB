@@ -1,0 +1,13 @@
+# Example configuration snippets only.
+# Do not overwrite your installed suricata.yaml with this file.
+#
+# Use your actual lab subnet:
+HOME_NET: "[<LAB_SUBNET>]"
+#
+# Configure the capture interface according to your Suricata version:
+af-packet:
+  - interface: <INTERFACE>
+#
+# Ensure local.rules is included in rule-files.
+rule-files:
+  - local.rules

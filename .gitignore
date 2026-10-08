@@ -1,0 +1,21 @@
+# OS/editor
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+
+# Secrets/private material
+*.key
+*.pem
+.env
+.env.*
+
+# Raw production/security logs
+*.pcap
+*.pcapng
+*.pcap.gz
+*.log
+
+# Local/generated artifacts
+__pycache__/
+*.pyc

@@ -1,0 +1,1 @@
+{"timestamp":"2026-10-07T15:30:00.000000+0100","event_type":"alert","src_ip":"192.168.1.20","src_port":51542,"dest_ip":"192.168.1.10","dest_port":4444,"proto":"TCP","alert":{"action":"allowed","gid":1,"signature_id":1000001,"rev":1,"signature":"LAB Netcat TCP 4444 Test","category":null,"severity":3}}
